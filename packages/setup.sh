@@ -7,6 +7,12 @@ cd "$DIR"
 
 COMMENT=\#*
 
+
+# Install command-line tools using Homebrew.
+echo "Working through Brew";
+
+sudo chown -R $(whoami):admin /usr/local/* && sudo chmod -R g+rwx /usr/local/*
+
 sudo -v
 
 info "Installing Brewfile packages..."
