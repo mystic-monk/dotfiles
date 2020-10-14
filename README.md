@@ -50,10 +50,6 @@ hidden files
 * togglehidden - A shell script that toggles between showing and hiding hidden
 files
 
-### Duti (duti/)
-* setup.sh - Sets the defaults set up in the different files
-* app.package.id - Contains all extensions for the specified program
-
 ### Fish (fish/)
 * setup.sh - Symlinks all fish files to their corresponding location in `~/.config/fish/`
 * config.fish - Global fish configuration (.fishrc)
@@ -89,22 +85,6 @@ files
 * .gitignore_global - Contains global gitignores, such as OS-specific files and
 several compiled files
 * .gitconfig - Sets several global Git variables
-
-### Hammerspoon (hammerspoon/)
-* setup.sh - Symlinks all lua and AppleScript files to `~/.hammerspoon/`
-* init.lua - Contains the main Hammerspoon config, importing the others
-* bluetooth.lua - Toggles Bluetooth headset connection
-* caffeinate.lua - Shortcuts for managing screen state (locking, etc.)
-* connect_sony.applescript - Toggles Bluetooth headset connection
-* hyper.lua - Binds the "F18" key to a Hyper mode, which can be used for
-global commands
-* minimising.lua - Shortcuts for minimising and unminimising windows
-* shortcuts.lua - Hyper key bindings to existing shortcuts
-* spectacle.lua - Window and monitor management using hyper mode
-
-### Karabiner (karabiner/)
-* setup.sh - Symlinks Karabiner settings to `~/.config/karabiner`
-* karabiner.json - Binds the CAPS LOCK key to "F18" to use with hammerspoon
 
 ### macOS Preferences (macos/)
 * setup.sh - Executes a long list of commands pertaining to macOS Preferences
