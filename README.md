@@ -1,10 +1,5 @@
 # Dotfiles
 
-For more information about dotfiles, I wrote these articles on my blog:
-* [Dotfiles: automating macOS system configuration](https://kalis.me/dotfiles-automating-macos-system-configuration/)
-* [Increasing development productivity with repository management](https://kalis.me/increasing-development-productivity-repository-management/)
-* [Set up a Hyper Key with Hammerspoon on macOS](https://kalis.me/setup-hyper-key-hammerspoon-macos/)
-
 ## Usage
 1. Generate new SSH keys and add them to your GitHub account
     1. Alternatively, restore your safely backed up SSH keys to `~/.ssh/`
